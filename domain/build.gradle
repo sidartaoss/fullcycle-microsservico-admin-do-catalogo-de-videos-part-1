@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.fullcycle.admin.catalogo.domain'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.mockito:mockito-junit-jupiter:5.4.0'
+    implementation 'mysql:mysql-connector-java:8.0.33'
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}

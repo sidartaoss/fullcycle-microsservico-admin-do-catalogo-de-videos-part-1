@@ -1,0 +1,5 @@
+rootProject.name = 'fullcycle-microsservico-admin-do-catalogo-de-videos'
+include 'domain'
+include 'application'
+include 'infrastructure'
+
