@@ -28,4 +28,8 @@ Estão envolvidas, na aplicação, tecnologias de:
   - Testcontainers MySQL (testes end-to-end)
   - Springdoc-openapi (documentação da API)
 
-O desenvolvimento da aplicação é baseado na metodologia _TDD_ (_Test-Driven Development_), sendo desenvolvidos testes unitários para a camada de _domain_ (ou _Entities_, segundo _Clean Architecture_) e de _application_ (ou _Use Cases_, segundo _Clean Architecture_) e testes de integração de persistência e _web_ para a camada de _infrastructure_ (ou _Frameworks_, segundo _Clean Architecture_). E, por fim, são desenvolvidos testes _end-to-end_ e de regressão manual via _Postman_.
+O desenvolvimento da aplicação é baseado na metodologia _TDD_ (_Test-Driven Development_), sendo desenvolvidos:
+
+- Testes unitários para a camada de _domain_ (ou _Entities_, segundo _Clean Architecture_) e de _application_ (ou _Use Cases_, segundo _Clean Architecture_);
+- Testes de integração de persistência e _web_ para a camada de _infrastructure_ (ou _Frameworks_, segundo _Clean Architecture_);
+- E, por fim, testes _end-to-end_ e de regressão manual via _Postman_.
